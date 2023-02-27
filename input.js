@@ -12,6 +12,7 @@ const setupInput = function (conn) {
   return stdin;
 };
 
+
 const handleUserInput = function (key) {
   console.log(key);
   if (key === '\u0003') {
